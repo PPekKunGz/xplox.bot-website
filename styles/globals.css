@@ -16,8 +16,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgb(164, 159, 255) 0%, rgb(126, 119, 255) 35%, rgb(143, 137, 255) 100%);
+  /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(164, 159, 255) 0%, rgb(126, 119, 255) 35%, rgb(143, 137, 255) 100%); */
   font-family: 'Poppins', sans-serif;
   cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat980.cur), auto !important;
 }
