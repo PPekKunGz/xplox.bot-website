@@ -21,6 +21,8 @@
   vertical-align: middle;
 }
 .header .logo {
+  display: flex;
+  align-items: center;
   color: #333;
   font-size: 1.25em;
   font-weight: 700;
@@ -32,6 +34,11 @@
 .header .group {
     display: flex;
     align-items: center;
+}
+.header .nav {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .header ul {
     position: relative;

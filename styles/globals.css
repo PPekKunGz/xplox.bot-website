@@ -2,22 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400&display=swap');
 
-:root {
-  --color-primary-accent: #2614c7;
-  --color-primary: #000;
-  --color-button: #3d486c;
-  --color-paragraph: #797979;
-  --color-button-text: rgb(255, 255, 255);
-  --color-background: #fff;
-  --color-anchor: #000aff;
-}
-
 html,
 body {
   padding: 0;
   margin: 0;
-  /* background: rgb(2,0,36);
-background: linear-gradient(90deg, rgb(164, 159, 255) 0%, rgb(126, 119, 255) 35%, rgb(143, 137, 255) 100%); */
+  /* background: linear-gradient(90deg, rgb(164, 159, 255) 0%, rgb(126, 119, 255) 35%, rgb(143, 137, 255) 100%); */
   font-family: 'Poppins', sans-serif;
   cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat980.cur), auto !important;
 }

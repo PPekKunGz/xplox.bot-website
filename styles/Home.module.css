@@ -19,6 +19,9 @@
   font-size: 2.25rem;
   text-shadow: 0 3px 3px rgba(212, 179, 255, 0.3);
   margin-top: 4rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .h5 h5 .h1 h1 {
   margin-top: 0;
@@ -102,20 +105,28 @@
   border: whitesmoke solid 5px;
   border-radius: 20px;
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .sec_1 .xplox_name {
   font-weight: 700;
   font-size: 300%;
-  color: #ff5f5a;
+  color: #ffffff;
   text-shadow: 1px 3px 3px rgba(255, 255, 255, 0.719);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .sec_1 .desc {
-  color: rgba(255, 255, 255, 0.7);
-  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+  color: #fff;
   font-weight: 500;
   letter-spacing: 2px;
   margin: 0 !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .xplox_btn {
   grid-gap: 10px;
@@ -133,9 +144,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background: #ff9380;
   transition: 0.5s ease 0s;
-  border: #fff solid 2px;
+  background: #7f12ce;
+  /* border: #fff solid 2px; */
 }
 .xplox_btn .btn_discord {
   width: 180px;
@@ -144,16 +155,20 @@
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background: #ff9bfa;
   transition: 0.5s ease 0s;
-  border: #fff solid 2px;
+  background: #7f12ce;
+  /* border: #fff solid 2px; */
+}
+.btn_invite {
+  color: #ffffff;
 }
 .btn_discord {
-    color: #333;
+  color: #ffffff;
 }
 .xplox_btn .btn_discord:hover,
 .btn_invite:hover {
-  background: #fff;
+  background: #ffff;
+  color: #7f12ce;
 }
 .xplox_btn .btn_discord a,
 .btn_invite a {

@@ -5,6 +5,7 @@ import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import AddModeratorIcon from '@mui/icons-material/AddModerator';
 
 import Header from './components/header'
+import Footer from './components/footer';
 import Particle from './components/particle_effect'
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/avatar.png" />
       </Head>
       <Header />
-      {/* <Particle /> */}
+      <Particle />
 
       {/* start --- sec 1 --- */}
       <div className={styles.sec_1}>
@@ -41,20 +42,13 @@ export default function Home() {
           หรือถ้าอยากจะรู้มากกว่านี้ว่ามีอะไรบ้าง สามารถเชิญหนูเข้าสู่เซิฟเวอร์ได้นะ!! 💕 </h3>
           {/* <hr style={{width: "350px"}}/> */}
           <div className={styles.xplox_btn}>
-            <div className={styles.btn_invite}><a href="#"><GroupAddIcon/> เชิญน้องบอท</a></div>
-            <div className={styles.btn_discord}><a href="#"><AddModeratorIcon/> เซิฟเวอร์ของน้อง</a></div>
+            <div className={styles.btn_invite}><a href="https://vikoprt.link/ayarikobotontour" target="_blank" rel="noreferrer" ><GroupAddIcon/> เชิญน้องบอท</a></div>
+            <div className={styles.btn_discord}><a href="https://vikoprt.link/ayarikobotontourdc" target="_blank" rel="noreferrer" ><AddModeratorIcon/> เซิฟเวอร์ของน้อง</a></div>
           </div>
-          {/* <div className={styles.skills_box}>
-            <div className={styles.skill_tab}>
-              <div className={styles.circle_red}></div>
-              <div className={styles.circle_yellow}></div>
-              <div className={styles.circle_green}></div>
-            </div>
-            <div className={styles.coding}>Skills : Reactjs , Nextjs , HTML/CSS (Basic) Working: Work from Home / Other</div>
-          </div> */}
         </div>
       </div>
       {/* end --- sec 1 --- */}
+      <Footer />
     </div>
   )
 }

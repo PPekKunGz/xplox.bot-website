@@ -2,7 +2,7 @@ import effect from "../../styles/components/particle_effect.module.css";
 
 function Particle() {
   return (
-    <div>
+    <div style={effect.effect}>
       <div className={effect.white}>
         <div className={effect.squares}>
           <div className={effect.square}></div>
