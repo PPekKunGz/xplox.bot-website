@@ -38,6 +38,7 @@ function Footer() {
               href="http://www.facebook.com/share.php?u=https://xplox.vikoperation.studio/"
               onclick="window.open(encodeURI(decodeURI(this.href)), 'FBwindow', 'width=650, height=470, menubar=no, toolbar=no, scrollbars=yes'); return false;"
               rel="nofollow"
+              target="_blank"
             >
               <FacebookIcon className={footer.icon} />
             </a>
