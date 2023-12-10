@@ -53,8 +53,8 @@ export default function Home() {
           หรือถ้าอยากจะรู้มากกว่านี้ว่ามีอะไรบ้าง สามารถเชิญหนูเข้าสู่เซิฟเวอร์ได้นะ!! 💕 </h3>
           {/* <hr style={{width: "350px"}}/> */}
           <div className={styles.xplox_btn}>
-            <div className={styles.btn_invite}><a href="https://vikoprt.link/ayarikobotontour" target="_blank" rel="noreferrer" ><GroupAddIcon/> เชิญน้องบอท</a></div>
-            <div className={styles.btn_discord}><a href="https://vikoprt.link/ayarikobotontourdc" target="_blank" rel="noreferrer" ><AddModeratorIcon/> เซิฟเวอร์ของน้อง</a></div>
+            <div className={styles.btn_invite}><a href="https://top.gg/bot/691256244194770944/invite" target="_blank" rel="noreferrer" ><GroupAddIcon/> เชิญน้องบอท</a></div>
+            <div className={styles.btn_discord}><a href="https://discord.com/invite/vpU3nAEwhR" target="_blank" rel="noreferrer" ><AddModeratorIcon/> เซิฟเวอร์ของน้อง</a></div>
           </div>
         </div>
       </div>
